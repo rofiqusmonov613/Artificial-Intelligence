@@ -502,4 +502,8 @@ ul {
     margin-top: 267px;
     margin-left: -175px;
 }
+.footer__logo:hover {
+    transform: rotateZ(360deg);
+    transition: 1s ease all;
+}
 
