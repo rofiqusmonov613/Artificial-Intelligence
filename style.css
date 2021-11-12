@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 .container {
     width: 1600px;
     margin: 0 auto;
     padding: 0;
 }
-.header__container{
+
+.header__container {
     display: flex;
     justify-content: space-around;
 }
@@ -59,7 +60,8 @@ body {
     color: #FFFFFF;
     transition: 1s ease all;
 }
-.main__logo{
+
+.main__logo {
     cursor: pointer;
 }
 
@@ -91,8 +93,8 @@ ul {
 
 .header__link {
     color: #FFFFFF;
-    font-family: 'Ceviche One', cursive;
-    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    font-size: 22px;
     line-height: 22px;
 }
 
@@ -110,8 +112,8 @@ ul {
     background: #3A68B8;
     border-radius: 5px;
     padding: 15px 30px;
-    font-family: 'Ceviche One', cursive;
-    font-size: 28px;
+    font-family: 'Merienda One', cursive;
+    font-size: 24px;
     line-height: 22px;
     color: #FFFFFF;
     border: 2px solid #3A68B8;
@@ -122,7 +124,8 @@ ul {
     color: #2c69d3;
     transition: 1s ease all;
 }
-.main__link{
+
+.main__link {
     color: #3A68B8;
     font-family: 'Open Sans';
     font-style: normal;
@@ -130,49 +133,55 @@ ul {
     line-height: 160%;
     font-family: 'Inconsolata', monospace;
 }
-.main__link:hover{
+
+.main__link:hover {
     color: #fff;
     transition: 1s ease all;
 }
-.main__title{
-    font-family: 'Ceviche One', cursive;
+
+.main__title {
+    font-family: 'Merienda One', cursive;
     font-style: normal;
     color: #FFFFFF;
-    font-size: 65px;
+    font-size: 55px;
     line-height: 130%;
 }
-.main__text{
+
+.main__text {
     color: #FFFFFF;
     opacity: 0.7;
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
     line-height: 160%;
 }
-.main__btn2{
+
+.main__btn2 {
     padding: 15px 30px;
     background-color: #3A68B8;
     border-radius: 5px;
     color: #FFFFFF;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
     font-size: 28px;
     line-height: 27px;
     margin-top: 50px;
     position: absolute;
     border: 2px solid #3A68B8;
 }
-.main__btn2:hover{
+
+.main__btn2:hover {
     color: #3A68B8;
     transition: 1s ease all;
     background-color: transparent;
 }
-.main__btn{
+
+.main__btn {
     padding: 15px;
     padding-left: 55px;
     padding-right: 25px;
     background-color: #3A68B8;
     border-radius: 5px;
     color: #FFFFFF;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
     font-size: 28px;
     line-height: 27px;
     margin-top: 50px;
@@ -180,98 +189,118 @@ ul {
     border: 2px solid #3A68B8;
     margin-left: 200px;
 }
-.main__btn:hover{
+
+.main__btn:hover {
     color: #3A68B8;
     transition: 1s ease all;
     background-color: transparent;
 }
-.main__icon{
+
+.main__icon {
     position: absolute;
     margin-left: -28px;
 }
-.main__container{
+
+.main__container {
     display: flex;
     width: 1600px;
     margin: 0 auto;
     padding: 0;
 }
-.wrapper__container{
+
+.wrapper__container {
     display: flex;
     width: 1600px;
     margin: 0 auto;
     padding: 0;
     margin-top: 450px;
 }
-.main{
+
+.main {
     width: 100%;
 }
-.main__flex-1{
+
+.main__flex-1 {
     margin-left: 60px;
     margin-top: 50px;
 }
-.main__flex-2{
+
+.main__flex-2 {
     margin-top: -20px;
     margin-left: 60px;
 }
-.main{
+
+.main {
     padding-top: 50px;
     padding-bottom: 280px;
     background-color: #08101E;
 }
-.main__list{
+
+.main__list {
     position: absolute;
     display: flex;
     margin-top: 700px;
     margin-left: 110px;
 }
-.main__item{
+
+.main__item {
     margin-right: 60px;
 }
-.wrapper__div-div{
+
+.wrapper__div-div {
     background-color: #0F1724;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     cursor: pointer;
 }
-.wrapper__div-div:hover{
+
+.wrapper__div-div:hover {
     background-color: #272f3d;
     transition: .8s ease all;
 }
-.wrapper__div-list{
+
+.wrapper__div-list {
     display: flex;
     margin-top: 50px;
     margin-left: 722px;
 }
-.wrapper__div-item{
+
+.wrapper__div-item {
     margin-right: 10px;
 }
-.wrapper__div-item:last-child{
+
+.wrapper__div-item:last-child {
     margin-right: 0;
 }
-.wrapper{
+
+.wrapper {
     position: absolute;
     width: 100%;
 }
-.wrapper__title{
+
+.wrapper__title {
     color: #FFFFFF;
-    font-size: 66px;
+    font-size: 46px;
     line-height: 130%;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
 }
-.wrapper__flex-2{
+
+.wrapper__flex-2 {
     margin-top: 220px;
     margin-left: 30px;
 }
-.wrapper__text{
+
+.wrapper__text {
     color: #FFFFFF;
     font-size: 20px;
     opacity: 0.7;
     font-family: 'Inconsolata', monospace;
 }
-.wrapper__link{
+
+.wrapper__link {
     background-color: #3A68B8;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
     font-size: 28px;
     color: #FFFFFF;
     padding: 15px 30px;
@@ -280,12 +309,14 @@ ul {
     position: absolute;
     border: 2px solid #3A68B8;
 }
-.wrapper__link:hover{
+
+.wrapper__link:hover {
     background-color: transparent;
     color: #3A68B8;
     transition: 1s ease all;
 }
-.dropped__item{
+
+.dropped__item {
     background-color: #0F1624;
     width: 382px;
     height: 389px;
@@ -295,56 +326,66 @@ ul {
     padding-bottom: 25px;
     margin-left: 33px;
 }
-.dropped__item:nth-child(1){
+
+.dropped__item:nth-child(1) {
     padding-top: 38px;
     padding-bottom: 12px;
 }
-.dropped__title{
+
+.dropped__title {
     color: #FFFFFF;
     margin-top: 47px;
     opacity: 0.7;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 125%;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
 }
-.dropped__text{
+
+.dropped__text {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 160%;
     opacity: 0.7;
     font-family: 'Inconsolata', monospace;
 }
-.dropped__list{
+
+.dropped__list {
     display: flex;
     margin-left: -300px;
 }
-.dropped__container{
+
+.dropped__container {
     display: flex;
     width: 1600px;
     margin: 0 auto;
     padding: 0;
     margin-top: 1050px;
 }
-.wrodded__title{
+
+.wrodded__title {
     color: #FFFFFF;
-    font-size: 65px;
+    font-size: 48px;
     line-height: 130%;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
 }
-.wrodded__text{
+
+.wrodded__text {
     color: #FFFFFF;
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
     line-height: 160%;
 }
-.wrodded__item{
+
+.wrodded__item {
     margin-top: 20px;
 }
-.wrodded__item:nth-child(1){
+
+.wrodded__item:nth-child(1) {
     margin-top: 40px;
 }
-.wrodded__mini-container{
+
+.wrodded__mini-container {
     display: flex;
     width: 1600px;
     margin: 0 auto;
@@ -352,13 +393,16 @@ ul {
     margin-top: 200px;
     padding-bottom: 100px;
 }
-.wrodded{
+
+.wrodded {
     width: 100%;
 }
-.wrodded__flex-1{
+
+.wrodded__flex-1 {
     margin-left: 80px;
 }
-.footer{
+
+.footer {
     background-color: #0A121F;
     width: 100%;
     height: 343px;
@@ -366,7 +410,8 @@ ul {
     padding-right: 350px;
     padding-bottom: 129px;
 }
-.footer__mini-container{
+
+.footer__mini-container {
     display: flex;
     width: 1600px;
     margin: 0 auto;
@@ -375,17 +420,25 @@ ul {
     padding-bottom: 100px;
     padding-top: 77px;
 }
-.footer__title{
+
+.footer__title {
     color: #3A68B8;
     font-family: 'Inconsolata', monospace;
     font-size: 22.5455px;
     line-height: 31px;
     margin-left: -2px;
 }
-.footer__span{
+
+.footer__title:hover {
+    color: #fff;
+    transition: 1s ease all;
+}
+
+.footer__span {
     cursor: pointer;
 }
-.footer__text{
+
+.footer__text {
     font-family: 'Inconsolata', monospace;
     color: #FFFFFF;
     font-size: 14px;
@@ -393,17 +446,21 @@ ul {
     opacity: 0.6;
     margin-top: 5px;
 }
-.footer__list{
+
+.footer__list {
     margin-top: 35px;
 }
-.footer__item{
+
+.footer__item {
     margin-bottom: 20px;
     cursor: pointer;
 }
-.footer__item:last-child{
+
+.footer__item:last-child {
     margin-bottom: 0;
 }
-.footer__link{
+
+.footer__link {
     position: absolute;
     margin-left: 6px;
     margin-top: .5px;
@@ -411,75 +468,101 @@ ul {
     font-size: 15px;
     font-family: 'Inconsolata', monospace;
 }
-.footer__list2{
+
+.footer__link:hover {
+    color: #3A68B8;
+    transition: 1s ease all;
+}
+
+.footer__list2 {
     margin-left: 50px;
     margin-top: 20px;
 }
-.footer__list3{
+
+.footer__list3 {
     margin-left: 80px;
     margin-top: 20px;
 }
-.footer__title2{
-    font-size: 28px;
+
+.footer__title2 {
+    font-size: 19.5px;
     line-height: 20px;
     color: #FFFFFF;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
     margin-bottom: 33px;
 }
-.footer__link2{
+
+.footer__link2 {
     color: #fff;
     opacity: 0.6;
     font-size: 14px;
     line-height: 18px;
     font-family: 'Inconsolata', monospace;
 }
-.footer__link2:nth-child(1){
+
+.footer__link2:nth-child(1) {
     margin-top: 30px;
 }
-.footer__flex-2{
+
+.footer__flex-2 {
     display: flex;
 }
-.footer__title3{
-    font-size: 28px;
+
+.footer__title3 {
+    font-size: 22px;
     line-height: 20px;
     color: #FFFFFF;
-    font-family: 'Ceviche One', cursive;
+    font-family: 'Merienda One', cursive;
     margin-left: 40px;
     margin-top: 20px;
 }
-.footer__text3{
+
+.footer__text3 {
     margin-top: 70px;
-    margin-left: -185px;
+    margin-left: -202px;
     color: #FFFFFF;
     font-family: 'Inconsolata', monospace;
     opacity: 0.6;
     font-size: 14px;
 }
-.footer__link3{
-    font-family: 'Ceviche One', cursive;
-    font-size: 20px;
+
+.footer__link3 {
+    font-family: 'Merienda One', cursive;
+    font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     margin-top: 130px;
-    margin-left: 700px;
+    margin-left: 688px;
     position: absolute;
 }
-.footer__link-list{
+
+.footer__link3:hover {
+    color: #3A68B8;
+    transition: 1s ease all;
+}
+
+.footer__link-list {
     display: flex;
     margin-top: 160px;
     margin-left: -270px;
 }
-.footer__link-item{
+
+.footer__link-item {
     margin-right: 36px;
 }
-.footer__list-link{
+
+.footer__list-link {
     position: absolute;
+    opacity: 0.3;
 }
-.footer__list-link:hover{
+
+.footer__list-link:hover {
     transform: scale(1.2);
     transition: 1s ease all;
+    opacity: 1;
 }
-.footer__select{
+
+.footer__select {
     display: inline-block;
     position: absolute;
     background-color: transparent;
@@ -488,22 +571,25 @@ ul {
     font-family: 'Inconsolata', monospace;
     font-size: 19px;
     text-align: center;
-    margin-top: 265px;
-    margin-left: 725px;
+    margin-top: 266px;
+    margin-left: 718px;
 }
-.footer__select:focus{
-   outline: none;
+
+.footer__select:focus {
+    outline: none;
 }
-.footer__option{
+
+.footer__option {
     background-color: #0A121F;
     border: none;
 }
-.footer__global{
+
+.footer__global {
     margin-top: 267px;
-    margin-left: -175px;
+    margin-left: -170px;
 }
+
 .footer__logo:hover {
     transform: rotateZ(360deg);
     transition: 1s ease all;
 }
-
